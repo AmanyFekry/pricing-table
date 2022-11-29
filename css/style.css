@@ -1,0 +1,153 @@
+body{
+
+    background: #272626;
+    height:1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white
+  }
+
+.title1{
+    text-align: center;
+    font-size: 40px;
+
+}
+.line{
+    height: 4px;
+    width: 60px;
+    background-color: rgb(146, 34, 6);
+    margin:auto;
+    margin-top: -30px;
+}
+.header{
+    margin-top: 50px;
+}
+.rect1{
+    background-color: rgb(54, 52, 52);
+    height: 420px;
+    width: 250px;
+    float:left;
+    margin-left: 200px;
+    border-radius: 20px;
+    
+
+
+}
+
+.rect1:hover{
+    background-color:rgb(177, 179, 187);
+    color:#000000
+}
+.rect2{
+    background-color: rgb(54, 52, 52);
+    height: 420px;
+    width: 250px;
+    float:left;
+    margin: 0px 80px;
+    border-radius: 20px;
+
+
+}
+.rect2:hover{
+    background-color:rgb(177, 179, 187);
+    color:#000000
+}
+
+
+.rect3{
+    
+    height: 420px;
+    width: 250px;
+    float:left;
+    border-radius: 20px;
+    background-color: rgb(54, 52, 52);
+
+}
+.rect3:hover{
+    background-color:rgb(177, 179, 187);
+    color:#000000
+}
+.titlebox{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.parent{
+    overflow: auto;
+    margin-top: 100px;
+
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid   #ea7a0a;
+    margin:auto;
+    position: relative;
+    text-align:center;
+   
+    padding-top: 6px;
+    margin-top:10px;
+    
+   
+
+}
+
+
+
+.button1{
+    border-color: #ea7a0a;
+    background-color:rgb(54, 52, 52);
+    height: 45px;
+    width: 150px;
+    margin-top:20px;
+    margin-left:50px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    position:static;
+}
+.price{
+    text-align:center;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 14px;
+    margin-right: 16px;
+    margin-bottom: 25px;
+    color: #ea7a0a;
+
+}
+.text{
+  
+    text-align: right;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 14px;
+    margin-right: 16px;
+   
+    color:rgb(255, 255, 255);
+}
+
+.clearFix{
+    clear: both;
+}
+
+ul {
+    list-style: none;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color:  #ea7a0a;
+    
+  }
+  .par1{
+    font-style: italic;
+    padding-left: 5px;
+  }
+  .hr1{
+    border-top: 2px dotted grey;
+    border-left: 10px;
+  }
